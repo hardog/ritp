@@ -1,6 +1,6 @@
 {
   "name": "airserver",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "take folder as a server root path",
   "keywords": [
     "server",

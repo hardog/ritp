@@ -23,4 +23,4 @@ $npm link
 -v, --version       output version information and exit
 ```
 ## Example
-`$airserver --port=8080 --path=E://xx//yy`该命令将会将访问端口修改为8080 默认为80, 指定路径`E://xx//yy`为web静态服务器的根路径
+`$airserver --port=8080 --path=E://xx//yy --default=default.html`该命令将会将访问端口修改为8080 默认为80, 指定路径`E://xx//yy`为web静态服务器的根路径, 如果url中没有指定访问的文件默认为指定文件夹下的`index.html`文件,也可以使用命令行参数`--default`指定,上述命令将默认访问文件修改为default.html

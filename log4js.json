@@ -1,0 +1,33 @@
+{
+  "appenders": [
+    { 
+      "category": "out", 
+      "type": "file",
+      "filename": "logs/out.log",
+      "maxLogSize": 102400,
+      "backups": 10
+    },
+    {
+      "category": "err",
+      "type": "file",
+      "filename": "logs/err.log",
+      "maxLogSize": 102400,
+      "backups": 10
+    },
+    {
+      "category": "http",
+      "type": "file",
+      "filename": "logs/http.log",
+      "maxLogSize": 102400,
+      "backups": 10
+    }
+  ],
+  "levels": {
+    "out":  "TRACE",
+    "err": "ERROR",
+    "http": "TRACE"
+  },
+  "morgan": {
+    "type": "tiny"
+  }
+}

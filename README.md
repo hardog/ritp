@@ -8,13 +8,13 @@
 
 # 安装
 
-git clone repo 至本地,进入对应的文件夹并执行以下命令,由于当前插件并没有发布到npm所以，将以clone到本地后放到一个相对固定的文件夹里
+git clone repo 至本地,进入对应的文件夹并执行以下命令(由于当前插件并没有发布到npm所以,最好将项目clone到本地后放到一个相对固定的文件夹里)
 ```
 $npm install
 $npm link
 ```
 
-# 使用
+# 命令行可选参数
 ```
 --default=filename  the default filename to show
 --path=x:/xx/xx     execute path , disc absolute path
@@ -22,3 +22,5 @@ $npm link
 -h, --help          display this help and exit
 -v, --version       output version information and exit
 ```
+## Example
+`$airserver --port=8080 --path=E://xx//yy`该命令将会将访问端口修改为8080 默认为80, 指定路径`E://xx//yy`为web静态服务器的根路径

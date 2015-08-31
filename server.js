@@ -85,7 +85,7 @@ server.on("error", function(error) {
 //开始侦听8124端口 
 server.listen(argvs.getPort(), function() {
     //向控制台输出服务启动的信息 
-    console.log('[Airserver][Start] running at http://localhost/');
+    console.log('[Airserver][Start] running at http://localhost:'+ argvs.getPort() + '/');
     //结束服务启动计时器并输出 
     console.timeEnd('[Airserver][Start]');
 });

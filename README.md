@@ -18,9 +18,9 @@ $npm link
 ```
 --default=filename  the default filename to show
 --path=x:/xx/xx     execute path , disc absolute path
---port=80           the server port default is 80
+--port=8080         the server port default is 8080
 -h, --help          display this help and exit
 -v, --version       output version information and exit
 ```
 ## Example
-`$airserver --port=8080 --path=E://xx//yy --default=default.html`该命令将会将访问端口修改为8080 默认为80, 指定路径`E://xx//yy`为web静态服务器的根路径, 如果url中没有指定访问的文件默认为指定文件夹下的`index.html`文件,也可以使用命令行参数`--default`指定,上述命令将默认访问文件修改为default.html
+`$airserver --port=8080 --path=E://xx//yy --default=default.html`该命令将会将访问端口修改为8080, 指定路径`E://xx//yy`为web静态服务器的根路径, 如果url中没有指定访问的文件默认为指定文件夹下的`index.html`文件,也可以使用命令行参数`--default`指定,上述命令将默认访问文件修改为default.html

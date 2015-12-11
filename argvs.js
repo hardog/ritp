@@ -11,7 +11,7 @@ var usage = "Usage: airserver filename [options] \n" +
     "Options:\n\n" +
     "   --default=filename   the default filename to show\n" +
     "   --path=x:/xx/xx      execute path , disc absolute path\n" +
-    "   --port=80            the server port default is 80\n" +
+    "   --port=8080          the server port default is 8080\n" +
     "   -h, --help           display this help and exit\n" +
     "   -v, --version        output version information and exit";
 
@@ -38,7 +38,7 @@ if (!consoleArgvs['default']) {
 }
 
 if(!consoleArgvs['port']){
-    consoleArgvs['port'] = 80;
+    consoleArgvs['port'] = 8080;
 }
 
 if(!consoleArgvs['path']){

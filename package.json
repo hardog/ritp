@@ -10,7 +10,7 @@
   ],
   "preferGlobal": "true",
   "bin": {
-    "airserver": "server.js"
+    "airserver": "index.js"
   },
   "author": {
     "name": "Frand",

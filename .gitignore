@@ -1,4 +1,8 @@
 .DS_Store
 node_modules/
 npm-debug.log
+logs/
+.gitignore
+.npmignore
+.travis.yml
 

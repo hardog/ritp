@@ -1,6 +1,7 @@
 {
   "name": "airserver",
   "version": "1.0.0",
+  "main": "index.js",
   "description": "node web static server",
   "keywords": [
     "server",

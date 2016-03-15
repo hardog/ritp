@@ -1,6 +1,6 @@
 {
   "name": "run-this-place",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "node web static server",
   "keywords": [

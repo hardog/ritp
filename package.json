@@ -1,5 +1,5 @@
 {
-  "name": "rtp",
+  "name": "ritp",
   "version": "1.0.2",
   "main": "index.js",
   "description": "node web static server",
@@ -19,16 +19,16 @@
     "url": "http://github.com/ncuzp"
   },
   "repository": {
-    "url": "git+https://github.com/ncuzp/rtp.git",
+    "url": "git+https://github.com/ncuzp/ritp.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/ncuzp/rtp/issues"
+    "url": "https://github.com/ncuzp/ritp/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ncuzp/rtp/blob/master/LICENSE"
+      "url": "https://github.com/ncuzp/ritp/blob/master/LICENSE"
     }
   ],
   "engines": {

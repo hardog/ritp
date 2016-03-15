@@ -1,5 +1,5 @@
 # 概述
-  这是一个简单的基于Node的web 静态服务器, 在所在的目录命令行输入`rtp(run-this-place)`即可将当前的文件夹做为一个web容器运行,
+  这是一个简单的基于Node的web 静态服务器, 在所在的目录命令行输入`ritp(run-in-this-place)`即可将当前的文件夹做为一个web容器运行,
 随后可在浏览器中输入`http://localhost`来访问.
 
 # 前提条件

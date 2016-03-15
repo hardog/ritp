@@ -7,7 +7,7 @@ var consoleArgvs = {};
 
 var args = (process.ARGV || process.argv).slice(1);
 
-var usage = "Usage: rtp filename [options] \n" +
+var usage = "Usage: ritp filename [options] \n" +
     "Options:\n\n" +
     "   --default=filename   the default filename to show\n" +
     "   --path=x:/xx/xx      default current dir path, disc absolute path\n" +

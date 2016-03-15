@@ -10,7 +10,7 @@ var args = (process.ARGV || process.argv).slice(1);
 var usage = "Usage: rtp filename [options] \n" +
     "Options:\n\n" +
     "   --default=filename   the default filename to show\n" +
-    "   --path=x:/xx/xx      execute path , disc absolute path\n" +
+    "   --path=x:/xx/xx      default current dir path, disc absolute path\n" +
     "   --port=8080          the server port default is 8080\n" +
     "   -h, --help           display this help and exit\n" +
     "   -v, --version        output version information and exit";

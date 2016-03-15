@@ -9,7 +9,7 @@
 # 安装
 
 ```
-$npm install run-this-place
+$npm install ritp
 ```
 
 # 命令行可选参数

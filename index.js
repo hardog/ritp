@@ -20,7 +20,7 @@ var http = require('http'),
 
 //Web服务器主函数,解析请求,返回Web内容 
 var main = function(req, res) {
-        var reqUrl = req.url; 
+        var reqUrl = req.url.replace(/(\.\.\/?)/g, '');
         //记录请求信息
         logger.http(req, res);
         
